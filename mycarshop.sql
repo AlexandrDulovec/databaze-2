@@ -67,3 +67,46 @@ VALUES ('19', 'BMW', 'i10');
 
 INSERT INTO car (id, manufacturer, model)
 VALUES ('20', 'Ferrari', '911');
+
+ALTER TABLE employee
+ADD car_id VARCHAR (255);
+
+UPDATE employee
+SET car_id = 1
+WHERE id = 1;
+
+UPDATE employee
+SET car_id = 1
+WHERE id = 2;
+
+UPDATE employee
+SET car_id = 2
+WHERE id = 3;
+
+UPDATE employee
+SET car_id = 2
+WHERE id = 4;
+
+UPDATE employee
+SET car_id = 7
+WHERE id = 5;
+
+UPDATE employee
+SET car_id = 7
+WHERE id = 6;
+
+UPDATE employee
+SET car_id = 5
+WHERE id = 7;
+
+UPDATE employee
+SET car_id = 5
+WHERE id = 8;
+
+UPDATE employee
+SET car_id = 9
+WHERE id = 9;
+
+UPDATE employee
+SET car_id = 9
+WHERE id = 10; 
